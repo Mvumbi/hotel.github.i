@@ -1,0 +1,237 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*-----------------*/
+
+#wrapper
+{
+    width: 1000px;
+    margin: 0px auto;
+   
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.wvc
+{
+    background-image:linear-gradient(rgba(0,0,0, 0.6), rgba(0,0,0, 0.6)), url(images/fonds2.JPG);
+    height: 100vh;
+    background-size: cover;
+    position: relative;
+}
+
+/*---------------------DEBUT HEADER--------------------------*/
+
+.div
+{
+    position: absolute;
+    top: 25%;
+    left: 3%;
+}
+
+.div h2
+{
+    font-size: 50px;
+    color: red;
+}
+
+.div p
+{
+    font-size: 23px;
+    color: white;
+    padding-left: 10px;
+}
+.php
+{
+    position: absolute;
+    top: 80%;
+    left: 30%;
+    border: 2px solid red;
+    border-radius: 20%;
+    background-color: red;
+}
+
+.php a
+{
+    font-size: 50px;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+.header-in
+{
+    background: hsla(358,28%, 95%, 0.85);
+}
+
+.header-list, .header-item
+{
+    list-style: none;
+}
+
+.header-item a 
+{
+    text-decoration: none;
+}
+
+.header-logo 
+{
+    text-align: center;
+    padding: 20px 0;
+}
+
+.header-nav 
+{
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    padding: 10px 0;
+}
+
+.header-list 
+{
+    overflow: hidden;
+}
+
+.header-item 
+{
+    float: left;
+}
+
+.header-item a
+{
+    color: black;
+    font-weight: 700;
+    font-size: 20px;
+    padding: 10px;
+    border-right: 1px solid;
+}
+
+.header-item a:hover 
+{
+    color:  #d86c0c;
+}
+
+.header-item.item1 a
+{
+    color: #d86c0c;
+}
+
+/*----------------------FIN HEADER---------------------------*/
+
+/*---------------------DEBUT MAIN----------------------------*/
+
+main
+{
+    padding-bottom: 20px;
+}
+aside
+{
+    position: relative;
+}
+
+.fonds24
+{
+    color: #d86c0c;
+    padding: 30px;
+}
+
+.text1
+{
+    overflow: hidden;
+    background: white;
+}
+
+.utm
+{
+    text-align: center;
+    border-bottom: 1px solid #d86c0c;
+}
+
+.swith
+{
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: #d86c0c;
+}
+
+.hop
+{
+    padding: 10px;
+    text-align: justify;
+}
+.chambre1
+{
+    width: 322px;
+    float: left;
+    border: 1px solid grey;
+}
+.in1, .in2, .in3
+{
+    margin: 5px;
+}
+
+.bbc
+{
+    text-align: right;
+}
+
+.item2
+{
+    text-decoration: none;
+    float: right;
+    padding: 10px;
+    color: white;
+    margin: 10px;
+    background-color: #d86c0c;
+}
+
+/*----------------------FIN MAIN-----------------------------*/
+
+/*---------------------DEBUT FOOTER--------------------------*/
+
+footer
+{
+    background-color: aqua;
+}
+
+.article-btm
+{
+    overflow: hidden;
+}
+.footer-in
+{
+    width: 240px;
+    float: left;
+    padding: 10px;
+    font-size: 17px;
+}
+
+.footer-list
+{
+    list-style: none;
+}
+
+.footer-item a
+{
+    text-decoration: none;
+    color: black;
+}
+
+.footer-item a:hover
+{
+    color: #d86c0c;
+}
+
+.footer-copy
+{
+    text-align: right;
+    font-size: 18px;
+    padding: 10px;
+}
+
+/*----------------------FIN FOOTER---------------------------*/
+
+
+
